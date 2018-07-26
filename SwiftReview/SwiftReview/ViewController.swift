@@ -12,6 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var total = 0
+        for index in 0..<4 {
+            total += index
+        }
+        print(total)
+        total = 0
+        for index in (-1)... {
+            total += index
+            print(total)
+        }
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
